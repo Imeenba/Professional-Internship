@@ -1,0 +1,25 @@
+main
+	__CC2DW
+		____DoICP
+	UART1_Init
+	UART1_Data_Ready
+	UART1_Read
+	byte2double
+		NRM4032
+			RES032
+			SETFUN32
+			FIXSIGN32
+			SETFOV32
+	rotate_angle
+		Div_32x32_FP
+			SETFDZ32
+			RES032
+			SETFOV32
+			SETFUN32
+		double2int
+			SETIOV3224
+		step_cw
+			VDelay_ms
+				Mul_32x32_U
+		abs
+		step_ccw

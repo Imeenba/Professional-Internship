@@ -1,0 +1,25 @@
+main
+	__CC2DW
+		____DoICP
+	PWM1_Start
+	PWM1_Set_Duty
+		Mul_16X16_U
+	UART1_Init
+	UART1_Write_Text
+		UART1_Write
+	UART1_Write
+	UART1_Data_Ready
+	UART1_Read_Text
+		UART1_Data_Ready
+		UART1_Read
+	atoi
+		isdigit
+		Mul_16X16_U
+	memset
+	UART1_Read
+	set_frequency
+		UART1_Write_Text
+			UART1_Write
+		UART1_Write
+		PWM1_Init
+	PWM1_Stop
