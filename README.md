@@ -1,4 +1,4 @@
-Professional Internship 
+Professional Internship - Control of a stepper motor
 
 This project aims to optimize the performance of an automated power screwdriver by controlling a NEMA-17 stepper motor using a PIC16F876A microcontroller programmed in mikroC. A LabVIEW interface was developed to monitor and adjust motor parameters in real-time.
 
